@@ -78,15 +78,12 @@
 //         let driver = PlacementAuthStorageAdapter::new();
 //         return Ok(Arc::new(driver));
 //     }
-
 //     if storage_is_mysql(&auth.storage_type) {
 //         let driver = MySQLAuthStorageAdapter::new();
 //         return Ok(Arc::new(driver));
 //     }
-
 //     return Err(RobustMQError::UnavailableStorageType);
 // }
-
 fn main() {
     println!("Hello, world!");
 }
